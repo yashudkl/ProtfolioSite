@@ -1,5 +1,5 @@
 # Web
-This is site which i use for learning web development
+This is my personal site to implement frontend stuffs which I am learning 
 Languages used:-
 **HTML
 **CSS
