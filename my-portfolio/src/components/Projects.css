@@ -1,61 +1,100 @@
-/* Projects Section Styles */
+/* Main Projects Section */
 #projects {
-    background-color: #fff;
+    background-color: #e2e2e2;
     padding: 60px 20px;
+    text-align: center;
   }
   
+  /* Title Styling */
   #projects h2 {
     font-size: 2.5rem;
-    color: #007bff;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 3px solid #ff6347; 
+    display: inline-block;
+    padding-bottom: 10px;
   }
   
-  .projects-grid {
+  /* Project Cards Grid */
+  .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1000px;
-    margin: auto;
+    gap: 30px;
+    margin-top: 40px;
   }
   
+  /* Individual Project Card */
   .project-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: #ffffff;
     padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   
+  /* Project Card Hover Effect */
   .project-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   }
   
+  /* Project Image */
+  .project-card img {
+    width: 100%;              
+    max-width: 200px;      
+    height: auto;            
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Project Title */
   .project-card h3 {
     font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 1rem;
+    color: #ff6347; 
+    margin-bottom: 10px;
+    transition: color 0.3s;
   }
   
+  .project-card h3:hover {
+    color: #ff8564; 
+  }
+  
+  /* Project Description */
   .project-card p {
+    color: #555;
     font-size: 1rem;
-    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Project Buttons */
+  .project-card .project-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; 
   }
   
   .project-card a {
-    display: inline-block;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
   }
   
   .project-card a:hover {
-    background-color: #0056b3;
+    background-color: #ff8564; 
+  }
+  
+  .project-card .project-links a:first-child {
+    margin-right: 10px; 
   }
   

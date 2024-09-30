@@ -1,6 +1,6 @@
 /* About Section Styles */
 #about {
-    background-color: #fff;
+    background-color: #e2e2e2;
     padding: 60px 20px;
     text-align: center;
   }
@@ -19,10 +19,19 @@
     line-height: 1.8;
   }
   .profile-image {
-    width: 150px; /* Set width */
-    height: 150px; /* Set height */
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Maintain aspect ratio and cover the area */
-    border: 2px solid #ccc; /* Optional: Add a border */
-    margin-top: 15px; /* Space between text and image */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 2px solid #ccc; 
+    margin-top: 15px; 
   }
+/* Image hover effect */
+.profile-image {
+    transition: transform 0.3s ease; 
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1); 
+  }
+  
