@@ -1,6 +1,5 @@
 Welcome to my portfolio! This is a personal project where I showcase my skills, projects, and experiences as a developer.
 
-![Profile Image](public/images/my-image.jpg)
 
 ## Technologies Used
 
