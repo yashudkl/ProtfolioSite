@@ -15,7 +15,7 @@ function Projects() {
             This project is not completed and is under development.
           </p>
           <div className="project-links">
-            <a href="https://github.com/yashudkl/Upamanyu-Academyk" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/yashudkl/Upamanyu-Academy" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="http://www.mysitemyway.com/underconstruction" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
