@@ -1,0 +1,28 @@
+/* Contact Section Styles */
+#contact {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  #contact a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  #contact a:hover {
+    color: #0056b3;
+  }
+  

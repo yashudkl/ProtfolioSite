@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Contact.css';
 const Contact = () => {
   return (
     <section id="contact" className="p-4">

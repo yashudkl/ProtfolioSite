@@ -1,0 +1,28 @@
+/* About Section Styles */
+#about {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+  }
+  .profile-image {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    margin-top: 15px; /* Space between text and image */
+  }
