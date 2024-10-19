@@ -1,5 +1,7 @@
 .contact-container {
-  max-width: 500px;
+  display:flex;
+  flex-direction: column;
+  max-width: 300px;
   margin: 2rem auto;
   padding: 2rem;
   background-color: #ffffff;
