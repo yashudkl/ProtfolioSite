@@ -1,4 +1,5 @@
 import React from 'react';
+import 'font-awesome/css/font-awesome.min.css';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
