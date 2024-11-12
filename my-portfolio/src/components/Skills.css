@@ -15,6 +15,7 @@
     letter-spacing: 1px;
     display: inline-block;
     padding-bottom: 10px;
+    border-bottom: 3px solid #ff6347; 
   }
   
   .skills-container {
