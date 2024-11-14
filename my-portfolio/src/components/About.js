@@ -7,7 +7,7 @@ const About = () => {
 <img 
 className="profile-image" src="/images/my-image.jpg" alt="me" />
 
-      <h2 className="text-3xl font-bold mb-2"> <TypingEffect
+      <h2 className="intro-text"> <TypingEffect
           text={["Hello! I’m Yashwant,"]}
           speed={100}
           eraseSpeed={50}
